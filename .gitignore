@@ -1,0 +1,53 @@
+2025-10-20-command-messagecodeguard-reviewer-is-runningc.txt
+# Python cache and build outputs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pym
+
+# Virtual environments and dependency folders
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.python_env/
+site-packages/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Test and coverage results
+.pytest_cache/
+.tox/
+.nox/
+.coverage*
+.cache/
+test-results/
+.hypothesis/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.old
