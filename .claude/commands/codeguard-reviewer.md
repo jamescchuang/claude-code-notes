@@ -1,6 +1,6 @@
 # Comprehensive Security Review Guide
 
-This guide consolidates security best practices across multiple domains for code review purposes. Use this to identify security vulnerabilities in code. After review is completed, save the result to "SecurityReviewReport.md" in root path of the project.
+This guide consolidates security best practices across multiple domains for code review purposes. Use this to identify security vulnerabilities in code. 
 
 ---
 
