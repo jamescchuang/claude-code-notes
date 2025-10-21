@@ -15,7 +15,7 @@ claude-code-notes/
 │   └── SecurityReviewReport.md      # 範例安全審查報告
 ├── src/
 │   └── flawed_code_exmaple.py       # 包含漏洞的範例程式碼
-└── README.md                         # 專案說明文件
+└── README.md                        # 專案說明文件
 
 ```
 
