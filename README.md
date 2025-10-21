@@ -2,22 +2,27 @@
 
 ## 專案簡介
 
-此儲存庫包含用於測試和展示 Claude Code 安全審查功能的範例程式碼。專案主要用於驗證 Claude Code 的 CodeGuard 安全審查工具能否有效識別常見的安全漏洞。
+此儲存庫包含用於測試和展示 Claude Code 之客製命令(slash commands)、代理人(subagents) 的範例程式碼應用及產出。
 
-## 專案結構
+## 儲存庫內容
 
 ```
 claude-code-notes/
 ├── .claude/
 │   └── commands/
-│       └── codeguard-reviewer.md    # CodeGuard 安全審查自訂指令
+│       └── codeguard-reviewer.md    # CodeGuard 安全審查自訂命令
 ├── example_report/
-│   └── SecurityReviewReport.md      # 完整安全審查報告
+│   └── SecurityReviewReport.md      # 範例安全審查報告
 ├── src/
 │   └── flawed_code_exmaple.py       # 包含漏洞的範例程式碼
-├── 2025-10-20-command-messagecodeguard-reviewer-is-runningc.txt
 └── README.md                         # 專案說明文件
+
 ```
+
+## 重要提醒
+
+⚠️ **警告**：`flawed_code_exmaple.py` 中的程式碼包含嚴重的安全漏洞，僅供測試與學習用途。請勿在生產環境中使用。
+
 
 ## 相關資源
 
