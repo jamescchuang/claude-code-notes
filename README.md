@@ -1,4 +1,4 @@
-# Claude Code 安全測試範例庫
+# Claude Code 測試範例庫
 
 ## 專案簡介
 
